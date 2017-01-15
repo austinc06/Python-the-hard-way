@@ -1,0 +1,9 @@
+How to use the skeleton
+1) Make a copy of your skeleton directory. Rename to new project name.
+2) Rename the NAME directory to the name of the project/name of the root module.
+3) Edit setup.py to have all the information for the project
+4) Rename tests/NAME_tests.py to also have the module name
+5) Double check using nosetests
+    nosetests needs to be called in the skeleton directory (1 level above the "tests" directory)
+      Should output "Ran 1 test in <time>"
+6) All good to start coding
